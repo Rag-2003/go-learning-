@@ -9,3 +9,7 @@ func main() {
 	fmt.Printf("How to check  the type %T\n", numbers)
 	fmt.Println("length:", len(numbers))
 }
+func another(){
+   main := 123
+   fmt.Println("the number should be more modified in  this format to ",  main)
+}
